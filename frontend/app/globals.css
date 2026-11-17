@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Design tokens from the approved prototype (docs/design). */
+@theme {
+  --color-ground: #f4f6f8;
+  --color-surface: #ffffff;
+  --color-ink: #14202b;
+  --color-muted: #56636f;
+  --color-line: #dce1e6;
+  --color-field: #c9d0d8;
+  --color-track: #e3e7ec;
+  --color-neutral-soft: #eef1f4;
+  --color-neutral-strong: #3d4954;
+  --color-faint: #9aa5b1;
+
+  --color-accent: #2450d3;
+  --color-accent-strong: #1a3ba0;
+  --color-accent-soft: #e7edfb;
+  --color-accent-mid: #6f86c9;
+
+  --color-warn: #8a5300;
+  --color-warn-strong: #6b4100;
+  --color-warn-soft: #fbefd9;
+  --color-stop: #a3302a;
+  --color-stop-strong: #7e2420;
+  --color-stop-soft: #f8e1de;
+  --color-ok: #1c6b43;
+  --color-ok-strong: #14532f;
+  --color-ok-soft: #ddf0e5;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-space-grotesk), var(--font-inter), ui-sans-serif, sans-serif;
+  --font-mono: var(--font-jetbrains-mono), ui-monospace, "SF Mono", Menlo, monospace;
+}
+
+body {
+  background: var(--color-ground);
+  color: var(--color-ink);
+  font-family: var(--font-sans);
+  line-height: 1.5;
+}
+
+:where(a, button, input, select, textarea, summary):focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+    animation: none !important;
+  }
+}

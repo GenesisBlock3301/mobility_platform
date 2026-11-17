@@ -1,0 +1,15 @@
+{
+  "_comment": "Intended outcome of each seed opportunity for the sample profile in the brief. Checked by tests/matching/test_expected_ranking.py.",
+  "programme-assistant-ngo-berlin": {"band": "strong", "eligibility": "requires_verification"},
+  "business-operations-associate-singapore": {"band": "strong", "eligibility": "requires_verification"},
+  "project-coordinator-toronto": {"band": "strong", "eligibility": "requires_verification"},
+  "graduate-trainee-business-operations-singapore": {"band": "strong", "eligibility": "requires_verification"},
+  "business-analyst-intern-vancouver": {"band": "partial", "eligibility": "requires_verification"},
+  "research-assistant-policy-singapore": {"band": "partial", "eligibility": "requires_verification"},
+  "operations-analyst-fintech-amsterdam": {"band": "partial", "eligibility": "requires_verification"},
+  "junior-project-manager-remote-uk": {"band": "partial", "eligibility": "no_known_blockers"},
+  "german-speaking-client-associate-munich": {"band": "partial", "eligibility": "blocked"},
+  "marketing-coordinator-bilingual-montreal": {"band": "partial", "eligibility": "blocked"},
+  "senior-programme-manager-geneva": {"band": "poor", "eligibility": "blocked"},
+  "software-engineer-backend-berlin": {"band": "poor", "eligibility": "requires_verification"}
+}
